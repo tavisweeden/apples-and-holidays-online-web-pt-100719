@@ -66,7 +66,7 @@ puts season.to_s.capitalize + ":"
     end
   end
 end
-
+require 'pry'
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
@@ -74,7 +74,7 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |season, holiday|
     holiday.each do |event, decorations|
     if decorations.include?("BBQ")
-      
+  binding.pry    
       
 end
 end
