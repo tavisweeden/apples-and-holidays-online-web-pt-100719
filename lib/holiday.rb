@@ -76,8 +76,7 @@ def all_holidays_with_bbq(holiday_hash)
     holiday.each do |event, decorations|
     if decorations.include?("BBQ")
       new_array << holiday
-    else
-      nil
+    
   #binding.pry    
       
 end
