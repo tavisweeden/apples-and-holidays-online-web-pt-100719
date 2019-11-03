@@ -61,7 +61,7 @@ puts season.to_s.capitalize + ":"
  holiday.each do |holiday, decorations|
   h = holiday.to_s.split("_").map {|word|word.capitalize}.join(" ") + ": "
   s = decorations.join(", ")
-  puts "  " h + s
+  puts "  "  + h + s
   
     end
   end
