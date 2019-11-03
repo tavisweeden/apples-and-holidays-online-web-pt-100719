@@ -77,7 +77,7 @@ def all_holidays_with_bbq(holiday_hash)
     if decorations.include?("BBQ")
       new_array = :event
   
-  binding.pry    
+  #binding.pry    
       
 end
 end
